@@ -1,0 +1,37 @@
+$tan: #fff0cc;
+$pink:#ff4e4e;
+$blue:#000f33;
+$button:#4c5770;
+
+@font-face {
+ font-family: "Sarah Script";
+ src: url('../fonts/BorgesLettering-SarahScript.otf') format("truetype");
+}
+
+@font-face {
+ font-family: "ArcherPro";
+ src: url('../fonts/archer/Archer-Book-Pro.otf') format("truetype");
+}
+
+@font-face {
+	font-family: 'Conv_Archer-Semibold-Pro';
+	src: url('../fonts/Archer-Semibold-Pro.eot');
+	src: local('☺'), url('../fonts/Archer-Semibold-Pro.woff') format('woff'), url('../fonts/Archer-Semibold-Pro.ttf') format('truetype'), url('../fonts/Archer-Semibold-Pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Archer-Bold-Pro';
+	src: url('../fonts/Archer-Bold-Pro.eot');
+	src: local('☺'), url('../fonts/Archer-Bold-Pro.woff') format('woff'), url('../fonts/Archer-Bold-Pro.ttf') format('truetype'), url('../fonts/Archer-Bold-Pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$sutro: 'sutro-deluxe-primary', sans-serif;
+$sutro2: 'sutro-black-initials', sans-serif;
+$sarah: 'Sarah Script', cursive;
+$archer: 'ArcherPro', serif;
+$archersemi: 'Conv_Archer-Semibold-Pro', serif;
+$archerbold: 'Conv_Archer-Bold-Pro', serif;

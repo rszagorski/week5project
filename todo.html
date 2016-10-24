@@ -1,0 +1,31 @@
+<!-- 
+//
+// styles
+// more magic if time -->
+
+
+<!-- /get multiple pages for the api -->
+
+
+<!-- convert cents to dollars in output -->
+<!-- //if its beer and the total package is = to 1 then multiply the price by 6
+//if its beer always multiply the alcohol content by 6 -->
+<!-- "total_package_units": 1, -->
+<!-- if it doesnt have an image dont show anything -->
+
+productApp.filterCategory = function(the_alcohol) {
+	var filteredAlcohol;
+	if (alcoholType === 'wine') {
+		filteredAlcohol = the_alcohol.filter(function(value) {
+			return value.primary_category === 'Wine';
+			console.log('hey',filteredAlcohol);
+		});
+	} else {
+		return the_alcohol ;
+	}
+
+	return filteredAlcohol;
+	// productApp.filterPrice(filteredType);
+};
+
+productApp.filterPrice(productApp.filterCategory(theAlcohol));

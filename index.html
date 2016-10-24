@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>What Should I Bring?</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://use.typekit.net/mts4naf.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+<body>
+	<main class="wrapper">
+		<form action="" class="main-form">
+			<header class="main-header">
+				<div class="title1" id= "the-top">
+					<p>so- YOU NEED BOOZE FOR A PARTY?</p>
+					<h2 class="well">Well,</h2>
+					<div class="tilt">
+						<h3 class="head1">first things first- </h3>
+					</div>
+					<div class="btn-wrapper">
+						<a href="#initial-q" class="btn"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				
+			</header>
+			<div class="initial-question" id="initial-q">
+				<div class="initial-wrapper">
+					<header class="question-t number1">
+						<!-- <p>What kind of party is this?</p> -->
+						<p class="what"> what kind</p>
+						<div class="tilt">
+							<h3 class="party">of party is this?</h3>
+						</div>
+					</header>
+					<div class="answers noafter">
+						<div class="answer">
+							<label for="fancy-dinner-party">A fancy dinner party</label>
+							<input type="radio" name="party-type" id="fancy-dinner-party" value="fancy-dinner-party">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="rowdy-house-party">A house party/BBQ</label>
+							<input type="radio" name="party-type" id="rowdy-house-party" value="rowdy-house-party">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="party-for-two">A party for two</label>
+							<input type="radio" name="party-type" id="party-for-two" value="party-for-two">
+							<div class="radio-btn"></div>
+						</div>
+					</div>
+					<div class="btn-wrapper">
+						<a href="#q-1" id="btn1" class="btn">Let's go<div class="arrow-small">
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+						</div></a>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="question1" id="q-1">
+				<header class="question-title">
+				</header>
+			</div>
+				
+			<div class= "menu-form">
+				<fieldset class= "question1-again">
+					<header class="question-t">
+						<p>What kind of alcohol do you want to bring?</p>
+					</header>
+					<div class="answers">
+						<div class="answer">
+							<label for="wine">Wine</label>
+							<input type="radio" name="alcohol-type" id="wine" value="wine">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="beer">Beer</label>
+							<input type="radio" name="alcohol-type" id="beer" value="beer">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="spirits">The Hard Stuff.</label>
+							<input type="radio" name="alcohol-type" id="spirits" value="spirits">
+							<div class="radio-btn"></div>
+						</div>
+					</div>
+				<!-- 	<div class="btn-wrapper" id="btn">
+						<a href="#" class="btn smoothScroll"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+					</div> -->
+				</fieldset>
+
+				<fieldset class= "question2">
+					<header class="question-t">
+						<p>How much are we trying to spend here?</p>
+					</header>
+					<div class="answers">
+						<div class="answer">
+							<label for="expensive-price">Down to spend a lot.</label>
+							<input type="radio" name="price-point" id="expensive-price" value="expensive-price">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="moderate-price">Not too much, but not too little? Medium.</label>
+							<input type="radio" name="price-point" id="moderate-price" value="moderate-price">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="cheap-price">Send those clearance items my way girl.</label>
+							<input type="radio" name="price-point" id="cheap-price" value="cheap-price">
+							<div class="radio-btn"></div>
+						</div>
+					<!-- 	<div class="btn-wrapper" id="btn">
+							<a href="#" class="btn smoothScroll"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+						</div> -->
+					</div>
+				</fieldset>
+
+				<fieldset class="question3">
+					<header class="question-t">
+						<h2></h2>
+						<p>How drunk are you trying to get?</p>
+					</header>
+					<div class="answers noafter">
+						<div class="answer">
+							<label for="blackout-drunk">BLACKOUT</label>
+							<input type="radio" name="alcohol-content" id="blackout-drunk" value="blackout-drunk">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="moderate-drunk">Inebriated for sure</label>
+							<input type="radio" name="alcohol-content" id="moderate-drunk" value="moderate-drunk">
+							<div class="radio-btn"></div>
+						</div>
+						<div class="answer">
+							<label for="buzzed-drunk">Tastefully Buzzed</label>
+							<input type="radio" name="alcohol-content" id="buzzed-drunk" value="buzzed-drunk">
+							<div class="radio-btn"></div>
+						</div>
+					</div>
+				</fieldset>
+
+				<fieldset class="final-submit">
+					<div class="submit-container">
+					<input type="submit" value="find me a drank" class="btn" href="#the-results">
+					</div>
+				</fieldset>
+
+			</div>
+		</form>
+
+		<section class="results" id="the-results">
+			<div class="info">
+				<p class="p-result">looks like you should probably get some:</p>
+				<h4 class="alcohol-title">(alcohol title here)</h4>
+				<p class="the-price">(the price here)</p>
+				<div class="results-image">
+					<img src="" alt="" class="the-alcohol-image">
+				</div>
+				<p class="blackout-message"></p>
+
+				<button type="button" class="next-container">
+				Unsatisfied? Keep looking<i class="fa fa-angle-right" aria-hidden="true"></i>
+				</button>
+				<form class="restart-btn">
+					<button onClick="history.go(0)" class="btn smoothScroll" href= "#the-top">Let's play again</button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  	<script type="text/javascript" src="smoothscroll.js"></script>
+  	<script src="main5.js"></script>
+</body>
+</html>
